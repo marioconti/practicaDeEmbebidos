@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embebidos</title>
+</head>
+<body>
+    <header>
+        <h1>Embebidos</h1>
+    </header>
+    <!-- tenemos que hacernos una idea mental de que cosas queremos que se vean. Nosotros queremos que se vean 3 cosas:
+    un embebidos que tenga una pagina web incrustada, otra un video de youtube y otra seccion que tenga acceso a una
+    canción de soundcloud (musica). Entonces lo que haremos será crear 3 secciones -->
+    <main>
+        <section>
+            <h2>Página web</h2>
+            <iframe src="https://www.lagaceta.com.ar" width="1480" height="800" frameborder="0"></iframe>
+            <!-- se pueden usar propiedades width y height para aumentar el ancho y largo -->
+            <!-- con esto nos encontramos dentro de nuestra pagina web usando la de otra -->
+        </section>
+        <section>
+            <h2>Youtube</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/68GLsa9SdPQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section>
+            <h2>Musica de Soundcloud</h2>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/800430199&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/oskarduvel" title="Oskar Düvel" target="_blank" style="color: #cccccc; text-decoration: none;">Oskar Düvel</a> · <a href="https://soundcloud.com/oskarduvel/oskar-duvel-soul" title="Soul." target="_blank" style="color: #cccccc; text-decoration: none;">Soul.</a></div>
+        </section>
+    </main>
+</body>
+</html>
